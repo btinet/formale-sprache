@@ -26,7 +26,7 @@
 - leadingZero = [vz] zero tz
 - leadingInteger = [vz] integer tz
 
-````agsl
+````shell
 float = ( ( (leadingZero | leadingInteger) {integerOrZero} ) | (integerNotZero {integerOrZero}) ) [(e [vz] integerOrZero {integerNotZero} )]
 ````
 
